@@ -68,21 +68,77 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
 
   const getCategoryStyles = (category: string) => {
     switch (category) {
-      case 'Wajib': return { bg: 'bg-emerald-100 dark:bg-emerald-900/30', text: 'text-emerald-700 dark:text-emerald-400', icon: <Book size={12} /> };
-      case 'Sunat': return { bg: 'bg-amber-100 dark:bg-amber-900/30', text: 'text-amber-700 dark:text-amber-400', icon: <Star size={12} /> };
-      case 'Harian': return { bg: 'bg-blue-100 dark:bg-blue-900/30', text: 'text-blue-700 dark:text-blue-400', icon: <Sun size={12} /> };
-      case 'Zikir': return { bg: 'bg-indigo-100 dark:bg-indigo-900/30', text: 'text-indigo-700 dark:text-indigo-400', icon: <Infinity size={12} /> };
-      case 'Pagi': return { bg: 'bg-orange-100 dark:bg-orange-900/30', text: 'text-orange-700 dark:text-orange-400', icon: <Sunrise size={12} /> };
-      case 'Ramadan': return { bg: 'bg-violet-100 dark:bg-violet-900/30', text: 'text-violet-700 dark:text-violet-400', icon: <MoonStar size={12} /> };
-      case 'Hadis': return { bg: 'bg-cyan-100 dark:bg-cyan-900/30', text: 'text-cyan-700 dark:text-cyan-400', icon: <ScrollText size={12} /> };
-      default: return { bg: 'bg-slate-100 dark:bg-slate-800', text: 'text-slate-700 dark:text-slate-300', icon: <Info size={12} /> };
+      case 'Wajib': return {
+        bg: 'bg-emerald-100 dark:bg-emerald-900/30',
+        text: 'text-emerald-700 dark:text-emerald-400',
+        cardBg: 'from-emerald-50/50 to-white dark:from-emerald-900/10 dark:to-slate-900',
+        cardBorder: 'border-emerald-100 dark:border-emerald-900/30',
+        arabicBg: 'bg-emerald-50/50 dark:bg-emerald-900/20',
+        icon: <Book size={12} />
+      };
+      case 'Sunat': return {
+        bg: 'bg-amber-100 dark:bg-amber-900/30',
+        text: 'text-amber-700 dark:text-amber-400',
+        cardBg: 'from-amber-50/50 to-white dark:from-amber-900/10 dark:to-slate-900',
+        cardBorder: 'border-amber-100 dark:border-amber-900/30',
+        arabicBg: 'bg-amber-50/50 dark:bg-amber-900/20',
+        icon: <Star size={12} />
+      };
+      case 'Harian': return {
+        bg: 'bg-blue-100 dark:bg-blue-900/30',
+        text: 'text-blue-700 dark:text-blue-400',
+        cardBg: 'from-blue-50/50 to-white dark:from-blue-900/10 dark:to-slate-900',
+        cardBorder: 'border-blue-100 dark:border-blue-900/30',
+        arabicBg: 'bg-blue-50/50 dark:bg-blue-900/20',
+        icon: <Sun size={12} />
+      };
+      case 'Zikir': return {
+        bg: 'bg-indigo-100 dark:bg-indigo-900/30',
+        text: 'text-indigo-700 dark:text-indigo-400',
+        cardBg: 'from-indigo-50/50 to-white dark:from-indigo-900/10 dark:to-slate-900',
+        cardBorder: 'border-indigo-100 dark:border-indigo-900/30',
+        arabicBg: 'bg-indigo-50/50 dark:bg-indigo-900/20',
+        icon: <Infinity size={12} />
+      };
+      case 'Pagi': return {
+        bg: 'bg-orange-100 dark:bg-orange-900/30',
+        text: 'text-orange-700 dark:text-orange-400',
+        cardBg: 'from-orange-50/50 to-white dark:from-orange-900/10 dark:to-slate-900',
+        cardBorder: 'border-orange-100 dark:border-orange-900/30',
+        arabicBg: 'bg-orange-50/50 dark:bg-orange-900/20',
+        icon: <Sunrise size={12} />
+      };
+      case 'Ramadan': return {
+        bg: 'bg-violet-100 dark:bg-violet-900/30',
+        text: 'text-violet-700 dark:text-violet-400',
+        cardBg: 'from-violet-50/50 to-white dark:from-violet-900/10 dark:to-slate-900',
+        cardBorder: 'border-violet-100 dark:border-violet-900/30',
+        arabicBg: 'bg-violet-50/50 dark:bg-violet-900/20',
+        icon: <MoonStar size={12} />
+      };
+      case 'Hadis': return {
+        bg: 'bg-cyan-100 dark:bg-cyan-900/30',
+        text: 'text-cyan-700 dark:text-cyan-400',
+        cardBg: 'from-cyan-50/50 to-white dark:from-cyan-900/10 dark:to-slate-900',
+        cardBorder: 'border-cyan-100 dark:border-cyan-900/30',
+        arabicBg: 'bg-cyan-50/50 dark:bg-cyan-900/20',
+        icon: <ScrollText size={12} />
+      };
+      default: return {
+        bg: 'bg-slate-100 dark:bg-slate-800',
+        text: 'text-slate-700 dark:text-slate-300',
+        cardBg: 'from-slate-50/50 to-white dark:from-slate-800/10 dark:to-slate-900',
+        cardBorder: 'border-slate-100 dark:border-slate-800',
+        arabicBg: 'bg-slate-50 dark:bg-slate-800/50',
+        icon: <Info size={12} />
+      };
     }
   };
 
   const styles = getCategoryStyles(dua.category);
 
   return (
-    <div className={`bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 overflow-hidden transition-all hover:shadow-md`}>
+    <div className={`bg-gradient-to-br ${styles.cardBg} rounded-3xl shadow-[0_2px_10px_-3px_rgba(0,0,0,0.05)] border ${styles.cardBorder} overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1`}>
       <div className="p-6 md:p-8">
         <div className="flex justify-between items-start mb-6">
           <span className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-wider ${styles.bg} ${styles.text}`}>
@@ -94,8 +150,8 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
               onClick={handleToggleAudio}
               disabled={isLoadingAudio}
               className={`p-2.5 rounded-xl transition-all ${isPlaying
-                  ? 'text-white bg-slate-900 dark:bg-white dark:text-slate-900 shadow-lg'
-                  : 'text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
+                ? 'text-white bg-slate-900 dark:bg-white dark:text-slate-900 shadow-lg'
+                : 'text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
                 }`}
               title={isPlaying ? "Berhenti" : "Dengar Bacaan"}
             >
@@ -125,11 +181,13 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
         </div>
 
         <h3 className={`text-xl font-bold text-slate-800 dark:text-white mb-6 flex items-center gap-2`}>
-          {dua.category === 'Hadis' ? <ScrollText size={22} className="text-cyan-500" /> : <BookOpen size={22} className="text-emerald-500" />}
+          <div className={`${styles.text}`}>
+            {dua.category === 'Hadis' ? <ScrollText size={22} /> : <BookOpen size={22} />}
+          </div>
           {dua.title}
         </h3>
 
-        <div className={`arabic-text text-3xl md:text-4xl leading-[2] md:leading-[2.5] text-right mb-8 text-slate-900 dark:text-white bg-slate-50 dark:bg-slate-800/50 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 transition-all ${isPlaying ? 'ring-4 ring-slate-900/5 dark:ring-white/5 border-slate-300 dark:border-slate-600' : ''}`}>
+        <div className={`arabic-text text-3xl md:text-4xl leading-[2] md:leading-[2.5] text-right mb-8 text-slate-900 dark:text-white ${styles.arabicBg} p-8 rounded-3xl border ${styles.cardBorder} transition-all ${isPlaying ? 'ring-4 ring-slate-900/5 dark:ring-white/5 border-slate-300 dark:border-slate-600' : ''}`}>
           {dua.arabic}
         </div>
 
