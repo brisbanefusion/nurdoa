@@ -31,4 +31,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./public_html/ # Set this to your desired cPanel folder, e.g., ./public_html/
+          server-dir: ./public_html/nurdoa/
