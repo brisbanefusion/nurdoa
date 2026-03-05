@@ -13,7 +13,7 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
   const [showBenefit, setShowBenefit] = useState(false);
   const [isLoadingAudio, setIsLoadingAudio] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
-  
+
   const audioContextRef = useRef<AudioContext | null>(null);
   const sourceNodeRef = useRef<AudioBufferSourceNode | null>(null);
 
@@ -37,7 +37,7 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
     try {
       setIsLoadingAudio(true);
       const audioBuffer = await generateSpeech(dua.arabic);
-      
+
       if (!audioBuffer) {
         throw new Error("Gagal menghasilkan audio");
       }
@@ -49,7 +49,7 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
       const source = audioContextRef.current.createBufferSource();
       source.buffer = audioBuffer;
       source.connect(audioContextRef.current.destination);
-      
+
       source.onended = () => {
         setIsPlaying(false);
         sourceNodeRef.current = null;
@@ -90,14 +90,13 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
             {dua.category}
           </span>
           <div className="flex gap-2">
-            <button 
+            <button
               onClick={handleToggleAudio}
               disabled={isLoadingAudio}
-              className={`p-2.5 rounded-xl transition-all ${
-                isPlaying 
-                ? 'text-white bg-slate-900 dark:bg-white dark:text-slate-900 shadow-lg' 
-                : 'text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
-              }`}
+              className={`p-2.5 rounded-xl transition-all ${isPlaying
+                  ? 'text-white bg-slate-900 dark:bg-white dark:text-slate-900 shadow-lg'
+                  : 'text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800'
+                }`}
               title={isPlaying ? "Berhenti" : "Dengar Bacaan"}
             >
               {isLoadingAudio ? (
@@ -108,14 +107,14 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
                 <Volume2 size={20} />
               )}
             </button>
-            <button 
+            <button
               onClick={() => setShowBenefit(!showBenefit)}
               className="p-2.5 text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl transition-colors"
               title="Info Lanjut"
             >
               <Info size={20} />
             </button>
-            <button 
+            <button
               onClick={copyToClipboard}
               className="p-2.5 text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 rounded-xl transition-colors"
               title="Salin"
@@ -130,7 +129,7 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
           {dua.title}
         </h3>
 
-        <div className={`arabic-text text-3xl md:text-5xl leading-[2] text-right mb-8 text-slate-900 dark:text-white bg-slate-50 dark:bg-slate-800/50 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 transition-all ${isPlaying ? 'ring-4 ring-slate-900/5 dark:ring-white/5 border-slate-300 dark:border-slate-600' : ''}`}>
+        <div className={`arabic-text text-3xl md:text-4xl leading-[2] md:leading-[2.5] text-right mb-8 text-slate-900 dark:text-white bg-slate-50 dark:bg-slate-800/50 p-8 rounded-3xl border border-slate-100 dark:border-slate-800 transition-all ${isPlaying ? 'ring-4 ring-slate-900/5 dark:ring-white/5 border-slate-300 dark:border-slate-600' : ''}`}>
           {dua.arabic}
         </div>
 
@@ -141,7 +140,7 @@ const DuaCard: React.FC<DuaCardProps> = ({ dua }) => {
               "{dua.translation}"
             </p>
           </div>
-          
+
           {showBenefit && dua.benefit && (
             <div className={`p-6 rounded-2xl border animate-in fade-in slide-in-from-top-4 duration-500 bg-slate-50 dark:bg-slate-800/30 border-slate-100 dark:border-slate-800`}>
               <h4 className="text-[10px] font-bold uppercase tracking-widest mb-2 dark:text-white opacity-50">Huraian & Hikmah</h4>
