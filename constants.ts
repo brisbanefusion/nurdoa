@@ -15,8 +15,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis2',
     title: 'Hadis 2: Islam, Iman & Ihsan',
     category: 'Hadis',
-    arabic: 'فَأَخْبِرْنِي عَنِ الإِيْمَانِ، قَالَ: أَنْ تُؤْمِنَ بِاللَّهِ، وَمَلائِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ...',
-    translation: 'Khabarkan kepadaku tentang Iman. Baginda menjawab: Bahawa kamu beriman kepada Allah, malaikat, kitab, rasul...',
+    arabic: 'فَأَخْبِرْنِي عَنِ الإِيمَانِ، قَالَ: أَنْ تُؤْمِنَ بِاللَّهِ، وَمَلَائِكَتِهِ، وَكُتُبِهِ، وَرُسُلِهِ، وَالْيَوْمِ الْآخِرِ، وَتُؤْمِنَ بِالْقَدَرِ خَيْرِهِ وَشَرِّهِ',
+    translation: 'Khabarkan kepadaku tentang Iman. Baginda menjawab: Bahawa kamu beriman kepada Allah, malaikat-Nya, kitab-kitab-Nya, rasul-rasul-Nya, hari kiamat, dan kamu beriman kepada takdir yang baik dan yang buruk.',
     benefit: 'Rumusan seluruh intipati ajaran Islam.'
   },
   {
@@ -31,8 +31,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis4',
     title: 'Hadis 4: Penciptaan Manusia',
     category: 'Hadis',
-    arabic: 'إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا نُطْفَةً...',
-    translation: 'Sesungguhnya setiap kamu dikumpulkan penciptaannya dalam perut ibunya selama 40 hari sebagai nutfah...',
+    arabic: 'إِنَّ أَحَدَكُمْ يُجْمَعُ خَلْقُهُ فِي بَطْنِ أُمِّهِ أَرْبَعِينَ يَوْمًا نُطْفَةً، ثُمَّ يَكُونُ عَلَقَةً مِثْلَ ذَلِكَ، ثُمَّ يَكُونُ مُضْغَةً مِثْلَ ذَلِكَ، ثُمَّ يُرْسَلُ إِلَيْهِ الْمَلَكُ فَيَنْفُخُ فِيهِ الرُّوحَ، وَيُؤْمَرُ بِأَرْبَعِ كَلِمَاتٍ: بِكَتْبِ رِزْقِهِ، وَأَجَلِهِ، وَعَمَلِهِ، وَشَقِيٌّ أَوْ سَعِيدٌ',
+    translation: 'Sesungguhnya setiap kamu dikumpulkan penciptaannya dalam perut ibunya selama 40 hari sebagai nutfah (air mani), kemudian menjadi segumpal darah selama tempoh yang sama, kemudian menjadi segumpal daging selama tempoh yang sama, kemudian diutuskan kepadanya malaikat lalu ditiupkan roh padanya, dan diperintahkan dengan empat ketetapan: rezekinya, ajalnya, amalannya, dan sama ada dia celaka atau bahagia.',
     benefit: 'Mengenal proses kehidupan dan ketetapan takdir Allah.'
   },
   {
@@ -47,40 +47,40 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis6',
     title: 'Hadis 6: Meninggalkan Syubhat',
     category: 'Hadis',
-    arabic: 'إِنَّ الْحَلالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ وَبَيْنَهُمَا مُشْتَبِهَاتٌ...',
-    translation: 'Sesungguhnya yang halal itu jelas dan yang haram itu jelas, dan di antara keduanya ada perkara syubhat...',
+    arabic: 'إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَاتٌ لَا يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ...',
+    translation: 'Sesungguhnya yang halal itu jelas dan yang haram itu jelas. Antara keduanya terdapat perkara-perkara syubhat yang tidak diketahui oleh orang ramai. Sesiapa mengelak syubhat, dia menyelamatkan agama dan kehormatannya. Sesiapa yang jatuh ke dalam syubhat, seumpama pengembala di pinggir kawasan larangan...',
     benefit: 'Menjaga kesucian hati dan agama dengan menjauhi keraguan.'
   },
   {
     id: 'hadis7',
     title: 'Hadis 7: Agama Itu Nasihat',
     category: 'Hadis',
-    arabic: 'الدِّينُ النَّصِيحَةُ، قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ...',
-    translation: 'Agama itu adalah nasihat. Kami bertanya: Untuk siapa? Baginda menjawab: Untuk Allah, Kitab-Nya, Rasul-Nya...',
+    arabic: 'الدِّينُ النَّصِيحَةُ، قُلْنَا: لِمَنْ؟ قَالَ: لِلَّهِ وَلِكِتَابِهِ وَلِرَسُولِهِ وَلِأَئِمَّةِ الْمُسْلِمِينَ وَعَامَّتِهِمْ',
+    translation: 'Agama itu adalah nasihat. Kami bertanya: Untuk siapa? Baginda menjawab: Untuk Allah, Kitab-Nya, Rasul-Nya, para pemimpin umat Islam, dan umat Islam seluruhnya.',
     benefit: 'Kepentingan saling menasihati demi kebaikan ummah.'
   },
   {
     id: 'hadis8',
     title: 'Hadis 8: Kehormatan Muslim',
     category: 'Hadis',
-    arabic: 'أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لا إِلَهَ إِلاَّ اللَّهُ...',
-    translation: 'Aku diperintahkan memerangi manusia sehingga mereka bersaksi tiada tuhan melainkan Allah...',
+    arabic: 'أُمِرْتُ أَنْ أُقَاتِلَ النَّاسَ حَتَّى يَشْهَدُوا أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَيُقِيمُوا الصَّلَاةَ، وَيُؤْتُوا الزَّكَاةَ، فَإِذَا فَعَلُوا ذَلِكَ عَصَمُوا مِنِّي دِمَاءَهُمْ وَأَمْوَالَهُمْ إِلَّا بِحَقِّ الْإِسْلَامِ، وَحِسَابُهُمْ عَلَى اللَّهِ تَعَالَى',
+    translation: 'Aku diperintahkan memerangi manusia sehingga mereka bersaksi tiada tuhan melainkan Allah dan Muhammad utusan Allah, mendirikan solat, dan mengeluarkan zakat. Jika mereka melakukannya, darah dan harta mereka terpelihara dariku, melainkan hak Islam, dan hisab mereka terserah kepada Allah.',
     benefit: 'Menjaga darah dan harta seorang Muslim yang beriman.'
   },
   {
     id: 'hadis9',
     title: 'Hadis 9: Melaksanakan Mengikut Kemampuan',
     category: 'Hadis',
-    arabic: 'مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ، وَمَا أَمَرْتُكُمْ بِهِ فَأْتُوا مِنْهُ مَا اسْتَطَعْتُمْ',
-    translation: 'Apa yang aku larang, tinggalkanlah. Dan apa yang aku perintahkan, lakukanlah mengikut kemampuan kamu.',
+    arabic: 'مَا نَهَيْتُكُمْ عَنْهُ فَاجْتَنِبُوهُ، وَمَا أَمَرْتُكُمْ بِهِ فَأْتُوا مِنْهُ مَا اسْتَطَعْتُمْ، فَإِنَّمَا أَهْلَكَ الَّذِينَ مِنْ قَبْلِكُمْ كَثْرَةُ مَسَائِلِهِمْ وَاخْتِلَافُهُمْ عَلَى أَنْبِيَائِهِمْ',
+    translation: 'Apa yang aku larang, jauhilah ia. Apa yang aku suruh, lakukanlah sekadar kemampuanmu. Sesungguhnya apa yang membinasakan umat sebelum kamu adalah kerana mereka banyak bertanya dan menyalahi nabi-nabi mereka.',
     benefit: 'Islam tidak membebankan umatnya di luar kemampuan.'
   },
   {
     id: 'hadis10',
     title: 'Hadis 10: Rezeki Yang Halal',
     category: 'Hadis',
-    arabic: 'إِنَّ اللَّهَ طَيِّبٌ لا يَقْبَلُ إِلا طَيِّبًا...',
-    translation: 'Sesungguhnya Allah itu baik, Dia tidak menerima melainkan yang baik sahaja...',
+    arabic: 'إِنَّ اللَّهَ تَعَالَى طَيِّبٌ لَا يَقْبَلُ إِلَّا طَيِّبًا، وَإِنَّ اللَّهَ أَمَرَ الْمُؤْمِنِينَ بِمَا أَمَرَ بِهِ الْمُرْسَلِينَ، فَقَالَ تَعَالَى: يَا أَيُّهَا الرُّسُلُ كُلُوا مِنَ الطَّيِّبَاتِ وَاعْمَلُوا صَالِحًا',
+    translation: 'Sesungguhnya Allah itu baik, Dia tidak menerima melainkan yang baik. Sesungguhnya Allah memerintahkan orang beriman sama seperti apa yang Dia perintahkan kepada para rasul. Firman-Nya: Wahai para rasul, makanlah dari yang baik-baik dan beramallah dengan soleh.',
     benefit: 'Rezeki yang halal menjadi syarat doa dimakbulkan.'
   },
   {
