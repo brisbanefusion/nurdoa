@@ -7,8 +7,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis1',
     title: 'Hadis 1: Niat & Ikhlas',
     category: 'Hadis',
-    arabic: 'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى...',
-    translation: 'Sesungguhnya setiap amalan itu bergantung kepada niat, dan setiap orang akan mendapat apa yang diniatkannya...',
+    arabic: 'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ، وَإِنَّمَا لِكُلِّ امْرِئٍ مَا نَوَى، فَمَنْ كَانَتْ هِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، فَهِجْرَتُهُ إِلَى اللَّهِ وَرَسُولِهِ، وَمَنْ كَانَتْ هِجْرَتُهُ لِدُنْيَا يُصِيبُهَا أَو امْرَأَةٍ يَنْكِحُهَا، فَهِجْرَتُهُ إِلَى مَا هَاجَرَ إِلَيْهِ',
+    translation: 'Sesungguhnya amal itu bergantung pada niat, dan setiap orang hanya akan mendapat apa yang dia niatkan. Sesiapa yang hijrahnya kerana Allah dan Rasul-Nya, maka hijrahnya itu kepada Allah dan Rasul-Nya. Sesiapa yang hijrahnya kerana habuan dunia atau untuk mengahwini wanita, maka hijrahnya adalah kepada apa yang dia tuju.',
     benefit: 'Paksi keikhlasan dalam setiap perbuatan.'
   },
   {
@@ -23,7 +23,7 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis3',
     title: 'Hadis 3: Rukun Islam',
     category: 'Hadis',
-    arabic: 'بُنِيَ الإِسْلامُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لا إِلَهَ إِلاَّ اللَّهُ...',
+    arabic: 'بُنِيَ الإِسْلامُ عَلَى خَمْسٍ: شَهَادَةِ أَنْ لا إِلَهَ إِلاَّ اللَّهُ وَأَنَّ مُحَمَّدًا رَسُولُ اللَّهِ، وَإِقَامِ الصَّلاةِ، وَإِيتَاءِ الزَّكَاةِ، وَالْحَجِّ، وَصَوْمِ رَمَضَانَ',
     translation: 'Islam dibina atas lima perkara: Syahadah, Solat, Zakat, Haji, dan Puasa Ramadan.',
     benefit: 'Asas praktikal identiti seorang Muslim.'
   },
@@ -271,8 +271,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis34',
     title: 'Hadis 34: Mencegah Kemungkaran',
     category: 'Hadis',
-    arabic: 'مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ...',
-    translation: 'Sesiapa yang melihat kemungkaran, ubahlah dengan tangan, jika tidak mampu dengan lidah...',
+    arabic: 'مَنْ رَأَى مِنْكُمْ مُنْكَرًا فَلْيُغَيِّرْهُ بِيَدِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِلِسَانِهِ، فَإِنْ لَمْ يَسْتَطِعْ فَبِقَلْبِهِ، وَذَلِكَ أَضْعَفُ الإِيمَانِ',
+    translation: 'Sesiapa di antara kalian yang melihat kemungkaran, hendaklah dia merubahnya dengan tangannya. Jika dia tidak mampu, maka dengan lisannya. Jika dia tidak mampu, maka dengan hatinya. Dan itu adalah selemah-lemah iman.',
     benefit: 'Tanggungjawab sosial setiap individu Muslim.'
   },
   {
@@ -353,32 +353,32 @@ export const COMMON_DUAS: Dua[] = [
     id: 'shifa1',
     title: 'Doa Memohon Kesembuhan (Syifa)',
     category: 'Sunat',
-    arabic: 'أَذْهِبِ الْبَاسَ رَبَّ النَّاسِ، اشْفِ وَأَنْتَ الشَّافِي...',
-    translation: 'Hilangkanlah kesakitan wahai Tuhan manusia, sembuhkanlah kerana Engkaulah Maha Penyembuh...',
+    arabic: 'أَذْهِبِ الْبَاسَ رَبَّ النَّاسِ، اشْفِ وَأَنْتَ الشَّافِي لَا شِفَاءَ إِلَّا شِفَاؤُكَ شِفَاءً لَا يُغَادِرُ سَقَمًا',
+    translation: 'Hilangkanlah kesakitan wahai Tuhan manusia, sembuhkanlah kerana Engkaulah Maha Penyembuh, tiada kesembuhan melainkan kesembuhan dari-Mu, kesembuhan yang tidak meninggalkan sebarang penyakit.',
     benefit: 'Dibaca untuk kesembuhan penyakit.'
   },
   {
     id: 'debt1',
     title: 'Doa Elak Hutang & Kesedihan',
     category: 'Sunat',
-    arabic: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ...',
-    translation: 'Ya Allah, aku berlindung dengan-Mu dari keluh kesah dan kesedihan...',
+    arabic: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْهَمِّ وَالْحَزَنِ، وَأَعُوذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ، وَأَعُوذُ بِكَ مِنَ الْبُخْلِ وَالْجُبْنِ، وَأَعُوذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ',
+    translation: 'Ya Allah, aku berlindung dengan-Mu dari keluh kesah dan kesedihan, dan aku berlindung dengan-Mu dari kelemahan dan sifat malas, dan aku berlindung dengan-Mu dari sifat bakhil dan pengecut, dan aku berlindung dengan-Mu dari cengkaman hutang dan penindasan manusia.',
     benefit: 'Memudahkan urusan rezeki dan kelapangan dada.'
   },
   {
     id: 'light1',
     title: 'Doa Penerang Hati (Rabbi Syrahli)',
     category: 'Sunat',
-    arabic: 'رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي...',
-    translation: 'Wahai Tuhanku, lapangkanlah bagiku dadaku...',
+    arabic: 'رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي وَاحْلُلْ عُقْدَةً مِنْ لِسَانِي يَفْقَهُوا قَوْلِي',
+    translation: 'Wahai Tuhanku, lapangkanlah bagiku dadaku, dan mudahkanlah bagiku urusanku, dan rungkaikanlah kekakuan dari lidahku, supaya mereka faham perkataanku.',
     benefit: 'Kekuatan dalam berhujah dan peperiksaan.'
   },
   {
     id: 'r3',
     title: 'Doa Taubat (Rabbana Dhalamma)',
     category: 'Wajib',
-    arabic: 'رَبَّنَا ظَلَمْنَا أَنْفُسَنَا...',
-    translation: 'Wahai Tuhan kami, kami telah menganiaya diri kami sendiri...',
+    arabic: 'رَبَّنَا ظَلَمْنَا أَنْفُسَنَا وَإِنْ لَمْ تَغْفِرْ لَنَا وَتَرْحَمْنَا لَنَكُونَنَّ مِنَ الْخَاسِرِينَ',
+    translation: 'Wahai Tuhan kami, kami telah menganiaya diri kami sendiri, dan kalau Engkau tidak mengampunkan kami dan memberi rahmat kepada kami, nescaya menjadilah kami dari orang-orang yang rugi.',
     benefit: 'Asas permohonan ampun kepada Allah.'
   },
   {
@@ -395,8 +395,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'p1',
     title: 'Doa Perlindungan Pagi (Bismillahilladhi)',
     category: 'Pagi',
-    arabic: 'بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ...',
-    translation: 'Dengan nama Allah yang dengan nama-Nya tidak ada sesuatu pun yang dapat memberi kemudaratan...',
+    arabic: 'بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ',
+    translation: 'Dengan nama Allah yang dengan nama-Nya tidak ada sesuatu pun yang dapat memberi kemudaratan di bumi mahupun di langit, dan Dialah Yang Maha Mendengar lagi Maha Mengetahui.',
     benefit: 'Pelindung dari bahaya pagi dan petang.'
   },
   {
@@ -421,48 +421,48 @@ export const COMMON_DUAS: Dua[] = [
     id: 'h1',
     title: 'Doa Bangun Tidur',
     category: 'Harian',
-    arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا...',
-    translation: 'Segala puji bagi Allah yang telah menghidupkan kami...',
+    arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَحْيَانَا بَعْدَ مَا أَمَاتَنَا وَإِلَيْهِ النُّشُورُ',
+    translation: 'Segala puji bagi Allah yang telah menghidupkan kami selepas mematikan (menidurkan) kami, dan kepada-Nya lah tempat kembali.',
     benefit: 'Syukur atas peluang hidup baru.'
   },
   {
     id: 'eat1',
     title: 'Doa Sebelum Makan',
     category: 'Harian',
-    arabic: 'اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا...',
-    translation: 'Ya Allah, berkatilah kami pada apa yang Engkau rezekikan...',
+    arabic: 'اللَّهُمَّ بَارِكْ لَنَا فِيمَا رَزَقْتَنَا وَقِنَا عَذَابَ النَّارِ',
+    translation: 'Ya Allah, berkatilah kami pada apa yang Engkau rezekikan kepada kami, dan peliharalah kami dari azab neraka.',
     benefit: 'Keberkatan dalam makanan.'
   },
   {
     id: 'eat2',
     title: 'Doa Selepas Makan',
     category: 'Harian',
-    arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا...',
-    translation: 'Segala puji bagi Allah yang telah memberi kami makan...',
+    arabic: 'الْحَمْدُ لِلَّهِ الَّذِي أَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مُسْلِمِينَ',
+    translation: 'Segala puji bagi Allah yang telah memberi kami makan dan minum, serta menjadikan kami dari kalangan orang-orang Islam.',
     benefit: 'Syukur nikmat kenyang.'
   },
   {
     id: 'h7',
     title: 'Doa Keluar Rumah',
     category: 'Harian',
-    arabic: 'بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ...',
-    translation: 'Dengan nama Allah, aku bertawakal kepada Allah...',
+    arabic: 'بِسْمِ اللَّهِ تَوَكَّلْتُ عَلَى اللَّهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ',
+    translation: 'Dengan nama Allah, aku bertawakal kepada Allah, dan tiada daya serta kekuatan melainkan dengan pertolongan Allah.',
     benefit: 'Perlindungan luar rumah.'
   },
   {
     id: 'travel1',
     title: 'Doa Naik Kenderaan',
     category: 'Harian',
-    arabic: 'سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا...',
-    translation: 'Maha Suci Tuhan yang telah memudahkan kenderaan ini bagi kami...',
+    arabic: 'سُبْحَانَ الَّذِي سَخَّرَ لَنَا هَذَا وَمَا كُنَّا لَهُ مُقْرِنِينَ وَإِنَّا إِلَى رَبِّنَا لَمُنْقَلِبُونَ',
+    translation: 'Maha Suci Tuhan yang telah memudahkan kenderaan ini bagi kami, sedang kami sebelum ini tidak terdaya menguasainya, dan sesungguhnya kepada Tuhan kamilah, kami akan kembali.',
     benefit: 'Keselamatan dalam perjalanan.'
   },
   {
     id: 'dress1',
     title: 'Doa Memakai Pakaian',
     category: 'Harian',
-    arabic: 'الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا...',
-    translation: 'Segala puji bagi Allah yang telah memakaikan aku pakaian ini...',
+    arabic: 'الْحَمْدُ لِلَّهِ الَّذِي كَسَانِي هَذَا الثَّوْبَ وَرَزَقَنِيهِ مِنْ غَيْرِ حَوْلٍ مِنِّي وَلَا قُوَّةٍ',
+    translation: 'Segala puji bagi Allah yang telah memakaikan aku pakaian ini dan merezekikannya kepadaku tanpa sebarang daya dan kekuatan dariku.',
     benefit: 'Menutup aurat dengan syukur.'
   },
   {
@@ -485,7 +485,7 @@ export const COMMON_DUAS: Dua[] = [
     id: 'toilet1',
     title: 'Doa Masuk Tandas',
     category: 'Harian',
-    arabic: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ...',
+    arabic: 'اللَّهُمَّ إِنِّي أَعُوذُ بِكَ مِنَ الْخُبُثِ وَالْخَبَائِثِ',
     translation: 'Ya Allah, aku berlindung daripada syaitan jantan dan betina.',
     benefit: 'Perlindungan tempat kotor.'
   },
@@ -493,8 +493,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'toilet2',
     title: 'Doa Keluar Tandas',
     category: 'Harian',
-    arabic: 'غُفْرَانَكَ. الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنِّي...',
-    translation: 'Aku memohon keampunan-Mu. Segala puji bagi Allah yang menghilangkan kotoran...',
+    arabic: 'غُفْرَانَكَ. الْحَمْدُ لِلَّهِ الَّذِي أَذْهَبَ عَنِّي الْأَذَى وَعَافَانِي',
+    translation: 'Aku memohon keampunan-Mu. Segala puji bagi Allah yang menghilangkan kotoran (penyakit) daripadaku dan menyelamatkanku.',
     benefit: 'Syukur atas kesihatan tubuh.'
   },
   {
@@ -511,16 +511,16 @@ export const COMMON_DUAS: Dua[] = [
     id: 'ram0',
     title: 'Niat Puasa Ramadan',
     category: 'Ramadan',
-    arabic: 'نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ...',
-    translation: 'Sahaja aku puasa esok hari bagi menunaikan fardu Ramadan...',
+    arabic: 'نَوَيْتُ صَوْمَ غَدٍ عَنْ أَدَاءِ فَرْضِ شَهْرِ رَمَضَانَ هَذِهِ السَّنَةِ لِلَّهِ تَعَالَى',
+    translation: 'Sahaja aku puasa esok hari bagi menunaikan fardu Ramadan tahun ini kerana Allah Taala.',
     benefit: 'Rukun puasa utama.'
   },
   {
     id: 'ram3',
     title: 'Doa Berbuka Puasa',
     category: 'Ramadan',
-    arabic: 'اللَّهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ...',
-    translation: 'Ya Allah, bagi-Mu aku berpuasa...',
+    arabic: 'اللَّهُمَّ لَكَ صُمْتُ وَبِكَ آمَنْتُ وَعَلَى رِزْقِكَ أَفْطَرْتُ بِرَحْمَتِكَ يَا أَرْحَمَ الرَّاحِمِينَ',
+    translation: 'Ya Allah, bagi-Mu aku berpuasa, dan dengan-Mu aku beriman, dan atas rezeki-Mu aku berbuka puasa, dengan rahmat-Mu wahai Yang Maha Pengasih lagi Maha Penyayang.',
     benefit: 'Waktu mustajab doa.'
   },
   {
