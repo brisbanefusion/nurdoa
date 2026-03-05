@@ -329,16 +329,16 @@ export const COMMON_DUAS: Dua[] = [
     id: '1',
     title: 'Pembukaan Doa (Tahmid & Selawat)',
     category: 'Wajib',
-    arabic: 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ...',
-    translation: 'Segala puji bagi Allah Tuhan sekalian alam...',
+    arabic: 'الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ، حَمْدًا يُوَافِي نِعَمَهُ وَيُكَافِئُ مَزِيدَهُ، يَا رَبَّنَا لَكَ الْحَمْدُ كَمَا يَنْبَغِي لِجَلَالِ وَجْهِكَ وَعَظِيمِ سُلْطَانِكَ. اللَّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ.',
+    translation: 'Segala puji bagi Allah Tuhan sekalian alam, pujian yang mensyukuri nikmat-Nya dan menandingi kelebihan-Nya. Wahai Tuhan kami, bagi-Mu segala kepujian sebagaimana selayaknya bagi kebesaran zat-Mu dan keagungan kekuasaan-Mu. Ya Allah, selawat dan salam ke atas junjungan kami Nabi Muhammad serta ke atas keluarga Baginda.',
     benefit: 'Adab memulakan doa.'
   },
   {
     id: 'parent1',
     title: 'Doa Untuk Ibu Bapa',
     category: 'Wajib',
-    arabic: 'رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ...',
-    translation: 'Wahai Tuhanku, ampunilah dosaku dan dosa kedua ibu bapaku...',
+    arabic: 'رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَارْحَمْهُمَا كَمَا رَبَّيَانِي صَغِيرًا',
+    translation: 'Wahai Tuhanku! Ampunilah dosaku dan dosa kedua ibu bapaku, dan kasihanilah mereka sebagaimana mereka mengasuhku ketika aku kecil.',
     benefit: 'Kewajipan berbakti kepada orang tua.'
   },
   {
@@ -385,8 +385,8 @@ export const COMMON_DUAS: Dua[] = [
     id: '3',
     title: 'Doa Kebaikan Dunia & Akhirat (Rabbana Atina)',
     category: 'Wajib',
-    arabic: 'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً...',
-    translation: 'Wahai Tuhan kami, berikanlah kami kebaikan di dunia dan akhirat...',
+    arabic: 'رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ',
+    translation: 'Wahai Tuhan kami, berikanlah kami kebaikan di dunia dan kebaikan di akhirat, dan peliharalah kami daripada azab api neraka.',
     benefit: 'Doa sapujagat paling lengkap.'
   },
 
