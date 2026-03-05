@@ -303,24 +303,24 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis38',
     title: 'Hadis 38: Wali Allah',
     category: 'Hadis',
-    arabic: 'مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ...',
-    translation: 'Sesiapa yang memusuhi wali-Ku, maka Aku mengisytiharkan perang kepadanya...',
+    arabic: 'مَنْ عَادَى لِي وَلِيًّا فَقَدْ آذَنْتُهُ بِالْحَرْبِ، وَمَا تَقَرَّبَ إِلَيَّ عَبْدِي بِشَيْءٍ أَحَبَّ إِلَيَّ مِمَّا افْتَرَضْتُ عَلَيْهِ، وَمَا يَزَالُ عَبْدِي يَتَقَرَّبُ إِلَيَّ بِالنَّوَافِلِ حَتَّى أُحِبَّهُ، فَإِذَا أَحْبَبْتُهُ كُنْتُ سَمْعَهُ الَّذِي يَسْمَعُ بِهِ، وَبَصَرَهُ الَّذِي يُبْصِرُ بِهِ، وَيَدَهُ الَّتِي يَبْطِشُ بِهَا، وَرِجْلَهُ الَّتِي يَمْشِي بِهَا، وَإِنْ سَأَلَنِي لَأُعْطِيَنَّهُ، وَلَئِنِ اسْتَعَاذَنِي لَأُعِيذَنَّهُ',
+    translation: 'Sesiapa yang memusuhi wali-Ku, maka Aku mengisytiharkan perang kepadanya. Tidak sanya hamba-Ku mendekatkan diri kepada-Ku dengan sesuatu yang lebih Aku cintai daripada apa yang Aku fardukan ke atasnya. Dan hamba-Ku terus-menerus mendekatkan diri kepada-Ku dengan amalan sunat sehingga Aku mencintainya. Apabila Aku mencintainya, jadilah Aku pendengaran yang dia gunakan untuk mendengar, penglihatan yang dia gunakan untuk melihat, tangan yang dia gunakan untuk memukul, dan kaki yang dia gunakan untuk berjalan. Jika dia meminta kepada-Ku, pasti Aku memberikannya. Jika dia memohon perlindungan-Ku, pasti Aku melindunginya.',
     benefit: 'Mendekatkan diri dengan ibadah nawafil (sunat).'
   },
   {
     id: 'hadis39',
     title: 'Hadis 39: Kemaafan Allah',
     category: 'Hadis',
-    arabic: 'إِنَّ اللَّهَ تَجَاوَزَ لِي عَنْ أُمَّتِي الْخَطَأَ وَالنِّسْيَانَ وَمَا اسْتُكْرِهُوا عَلَيْهِ',
-    translation: 'Sesungguhnya Allah memaafkan umatku kerana tersalah, lupa, dan apa yang dipaksa.',
+    arabic: 'إِنَّ اللَّهَ تَجَاوَزَ لِي عَنْ أُمَّتِي الْخَطَأَ، وَالنِّسْيَانَ، وَمَا اسْتُكْرِهُوا عَلَيْهِ',
+    translation: 'Sesungguhnya Allah melampaui (memaafkan) bagi pihakku, dari umatku: Kesalahan (tidak sengaja), terlupa, dan apa yang dipaksa ke atas mereka.',
     benefit: 'Rahmat Allah yang luas dalam hukum-hakam.'
   },
   {
     id: 'hadis40',
     title: 'Hadis 40: Hiduplah Seperti Pengembara',
     category: 'Hadis',
-    arabic: 'كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ',
-    translation: 'Hiduplah kamu di dunia ini seolah-olah kamu seorang asing atau seorang pengembara.',
+    arabic: 'أَخَذَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ بِمَنْكِبِي فَقَالَ: كُنْ فِي الدُّنْيَا كَأَنَّكَ غَرِيبٌ أَوْ عَابِرُ سَبِيلٍ',
+    translation: 'Rasulullah SAW memegang bahuku lalu bersabda: "Hiduplah kamu di dunia ini seolah-olah kamu seorang perantau atau pengembara yang singgah dalam perjalanan (singgah sebentar sahaja).',
     benefit: 'Persediaan menghadapi kematian dan hari akhirat.'
   },
 
