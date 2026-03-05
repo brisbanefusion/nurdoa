@@ -175,24 +175,24 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis22',
     title: 'Hadis 22: Jalan Ke Syurga',
     category: 'Hadis',
-    arabic: 'أَرَأَيْتَ إِذَا صَلَّيْتُ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلالَ...',
-    translation: 'Jika aku solat fardu, puasa Ramadan, menghalalkan yang halal... adakah aku masuk syurga? Nabi menjawab: Ya.',
+    arabic: 'أَرَأَيْتَ إِذَا صَلَّيْتُ الْمَكْتُوبَاتِ، وَصُمْتُ رَمَضَانَ، وَأَحْلَلْتُ الْحَلَالَ، وَحَرَّمْتُ الْحَرَامَ، وَلَمْ أَزِدْ عَلَى ذَلِكَ شَيْئًا، أَأَدْخُلُ الْجَنَّةَ؟ قَالَ: نَعَمْ',
+    translation: 'Bagaimana pendapatmu jika aku menunaikan solat-solat fardu, berpuasa pada bulan Ramadan, menghalalkan yang halal, mengharamkan yang haram, dan aku tidak menambah sedikit pun atas hal itu, adakah aku akan masuk ke dalam syurga? Baginda menjawab: Ya.',
     benefit: 'Cukup dengan melaksanakan kewajipan untuk mendapat reda Allah.'
   },
   {
     id: 'hadis23',
     title: 'Hadis 23: Kesucian & Solat',
     category: 'Hadis',
-    arabic: 'الطُّهُورُ شَطْرُ الإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلأُ الْمِيزَانَ...',
-    translation: 'Bersuci itu separuh daripada iman, Alhamdulillah memenuhi timbangan...',
+    arabic: 'الطُّهُورُ شَطْرُ الْإِيمَانِ، وَالْحَمْدُ لِلَّهِ تَمْلَأُ الْمِيزَانَ، وَسُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ تَمْلَآَنِ أَوْ تَمْلَأُ مَا بَيْنَ السَّمَاوَاتِ وَالْأَرْضِ، وَالصَّلَاةُ نُورٌ، وَالصَّدَقَةُ بُرْهَانٌ، وَالصَّبْرُ ضِيَاءٌ',
+    translation: 'Bersuci itu separuh daripada iman, Alhamdulillah memenuhi timbangan (amal), Subhanallah dan Alhamdulillah kedua-duanya memenuhi ruang antara langit dan bumi. Solat itu cahaya, sedekah itu bukti, kesabaran itu sinaran.',
     benefit: 'Ganjaran zikir dan sabar dalam kehidupan.'
   },
   {
     id: 'hadis24',
     title: 'Hadis 24: Larangan Zalim',
     category: 'Hadis',
-    arabic: 'يَا عِبَادِي إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا...',
-    translation: 'Wahai hamba-Ku, sesungguhnya Aku mengharamkan kezaliman ke atas diri-Ku dan menjadikannya haram di antara kamu.',
+    arabic: 'يَا عِبَادِي، إِنِّي حَرَّمْتُ الظُّلْمَ عَلَى نَفْسِي، وَجَعَلْتُهُ بَيْنَكُمْ مُحَرَّمًا، فَلَا تَظَالَمُوا',
+    translation: 'Wahai hamba-hamba-Ku! Sesungguhnya Aku telah mengharamkan kezaliman ke atas diri-Ku, dan Aku telah menjadikannya haram di antara kamu, maka janganlah kamu saling menzalimi.',
     benefit: 'Allah Maha Adil dan benci akan kezaliman.'
   },
   {
