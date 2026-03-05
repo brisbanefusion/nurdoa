@@ -20,6 +20,8 @@ jobs:
           cache: 'npm'
 
       - name: 🔨 Build Project
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           npm install
           npm run build
