@@ -199,48 +199,48 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis25',
     title: 'Hadis 25: Keutamaan Zikir',
     category: 'Hadis',
-    arabic: 'إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةً، وَكُلِّ تَكْبِيرَةٍ صَدَقَةً...',
-    translation: 'Sesungguhnya setiap tasbih itu sedekah, setiap takbir itu sedekah...',
+    arabic: 'إِنَّ بِكُلِّ تَسْبِيحَةٍ صَدَقَةً، وَكُلِّ تَكْبِيرَةٍ صَدَقَةً، وَكُلِّ تَحْمِيدَةٍ صَدَقَةً، وَكُلِّ تَهْلِيلَةٍ صَدَقَةً، وَأَمْرٌ بِالْمَعْرُوفِ صَدَقَةٌ، وَنَهْيٌ عَنْ مُنْكَرٍ صَدَقَةٌ، وَفِي بُضْعِ أَحَدِكُمْ صَدَقَةٌ',
+    translation: 'Sesungguhnya pada setiap tasbih (Subhanallah) itu sedekah, setiap takbir (Allahu Akbar) itu sedekah, setiap tahmid (Alhamdulillah) itu sedekah, setiap tahlil (La ilaha illallah) itu sedekah, menyuruh kepada kebaikan itu sedekah, mencegah kemungkaran itu sedekah, dan persetubuhan salah seorang daripada kamu (dengan isteri yang sah) juga sedekah.',
     benefit: 'Peluang mendapat pahala sedekah tanpa harta.'
   },
   {
     id: 'hadis26',
     title: 'Hadis 26: Sedekah Anggota Tubuh',
     category: 'Hadis',
-    arabic: 'كُلُّ سُلامَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ...',
-    translation: 'Setiap sendi manusia wajib bersedekah setiap hari matahari terbit...',
+    arabic: 'كُلُّ سُلَامَى مِنَ النَّاسِ عَلَيْهِ صَدَقَةٌ، كُلَّ يَوْمٍ تَطْلُعُ فِيهِ الشَّمْسُ: تَعْدِلُ بَيْنَ الِاثْنَيْنِ صَدَقَةٌ، وَتُعِينُ الرَّجُلَ فِي دَابَّتِهِ فَتَحْمِلُهُ عَلَيْهَا أَوْ تَرْفَعُ لَهُ عَلَيْهَا مَتَاعَهُ صَدَقَةٌ، وَالْكَلِمَةُ الطَّيِّبَةُ صَدَقَةٌ، وَبِكُلِّ خُطْوَةٍ تَمْشِيهَا إِلَى الصَّلَاةِ صَدَقَةٌ، وَتُمِيطُ الْأَذَى عَنِ الطَّرِيقِ صَدَقَةٌ',
+    translation: 'Setiap sendi manusia wajib bersedekah setiap hari matahari terbit: Mendamaikan dua orang yang bertelingkah adalah sedekah. Membantu seseorang menaiki kenderaannya atau mengangkatkan barangannya ke atas kenderaan adalah sedekah. Perkataan yang baik adalah sedekah. Setiap langkah ke tempat solat adalah sedekah. Membuang halangan dari jalan raya adalah sedekah.',
     benefit: 'Mendamaikan orang yang bertelingkah adalah sedekah.'
   },
   {
     id: 'hadis27',
     title: 'Hadis 27: Definisi Dosa',
     category: 'Hadis',
-    arabic: 'الْبِرُّ حُسْنُ الْخُلُقِ، وَالإِثْمُ مَا حَاكَ فِي نَفْسِكَ...',
-    translation: 'Kebaikan itu akhlak yang baik, dan dosa itu apa yang mengganggu hatimu...',
+    arabic: 'الْبِرُّ حُسْنُ الْخُلُقِ، وَالْإِثْمُ مَا حَاكَ فِي نَفْسِكَ وَكَرِهْتَ أَنْ يَطَّلِعَ عَلَيْهِ النَّاسُ',
+    translation: 'Kebaikan itu adalah akhlak yang mulia, dan dosa itu adalah apa yang meresahkan jiwamu dan engkau benci jika ia diketahui oleh manusia.',
     benefit: 'Hati nurani sebagai kompas kebenaran.'
   },
   {
     id: 'hadis28',
     title: 'Hadis 28: Berpegang Kepada Sunnah',
     category: 'Hadis',
-    arabic: 'فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِينَ الْمَهْدِيِّينَ...',
-    translation: 'Hendaklah kamu berpegang dengan sunnahku dan sunnah Khulafa al-Rasyidin...',
+    arabic: 'فَعَلَيْكُمْ بِسُنَّتِي وَسُنَّةِ الْخُلَفَاءِ الرَّاشِدِينَ الْمَهْدِيِّينَ، عَضُّوا عَلَيْهَا بِالنَّوَاجِذِ، وَإِيَّاكُمْ وَمُحْدَثَاتِ الْأُمُورِ، فَإِنَّ كُلَّ بِدْعَةٍ ضَلَالَةٌ',
+    translation: 'Hendaklah kamu berpegang teguh dengan sunnahku dan sunnah Khulafa ar-Rasyidin yang mendapat petunjuk. Gigitlah padanya dengan gigi gerahammu. Dan jauhilah perkara-perkara baru yang direka-reka (dalam agama), kerana setiap bid’ah itu adalah kesesatan.',
     benefit: 'Pedoman menghadapi perselisihan akhir zaman.'
   },
   {
     id: 'hadis29',
     title: 'Hadis 29: Pintu Kebaikan',
     category: 'Hadis',
-    arabic: 'أَلا أَدُلُّكَ عَلَى أَبْوَابِ الْخَيْرِ؟ الصَّوْمُ جُنَّةٌ، وَالصَّدَقَةُ تُطْفِئُ الْخَطِيئَةَ...',
-    translation: 'Mahukah aku tunjukkan pintu kebaikan? Puasa itu perisai, sedekah menghapus dosa...',
+    arabic: 'أَلَا أَدُلُّكَ عَلَى أَبْوَابِ الْخَيْرِ؟ الصَّوْمُ جُنَّةٌ، وَالصَّدَقَةُ تُطْفِئُ الْخَطِيئَةَ كَمَا يُطْفِئُ الْمَاءُ النَّارَ، وَصَلَاةُ الرَّجُلِ مِنْ جَوْفِ اللَّيْلِ ثُمَّ تَلَا: تَتَجَافَى جُنُوبُهُمْ عَنِ الْمَضَاجِعِ',
+    translation: 'Mahukah aku tunjukkan kepadamu pintu-pintu kebaikan? Puasa itu adalah perisai. Sedekah itu memadamkan dosa seperti air yang memadamkan api. Dan solat seseorang pada pertengahan malam. Kemudian Baginda membaca firman Allah: "(Mereka yang bangun awal) lambung mereka jauh dari tempat tidur..."',
     benefit: 'Solat malam sebagai cahaya bagi mukmin.'
   },
   {
     id: 'hadis30',
     title: 'Hadis 30: Menjaga Hak Allah',
     category: 'Hadis',
-    arabic: 'إِنَّ اللَّهَ تَعَالَى فَرَضَ فَرَائِضَ فَلا تُضَيِّعُوهَا، وَحَدَّ حُدُودًا فَلا تَعْتَدُوهَا...',
-    translation: 'Allah mewajibkan kefarduan maka jangan abaikannya, menetapkan batasan maka jangan melampauinya...',
+    arabic: 'إِنَّ اللَّهَ تَعَالَى فَرَضَ فَرَائِضَ فَلَا تُضَيِّعُوهَا، وَحَدَّ حُدُودًا فَلَا تَعْتَدُوهَا، وَحَرَّمَ أَشْيَاءَ فَلَا تَنْتَهِكُوهَا، وَسَكَتَ عَنْ أَشْيَاءَ رَحْمَةً لَكُمْ غَيْرَ نِسْيَانٍ فَلَا تَبْحَثُوا عَنْهَا',
+    translation: 'Sesungguhnya Allah Taala telah mewajibkan fardu-fardu, maka janganlah kamu mensia-siakannya. Dia telah menetapkan batasan-batasan, maka janganlah kamu melampauinya. Dia telah mengharamkan beberapa perkara, maka janganlah kamu melanggarnya. Dan Dia mendiamkan (tidak menetapkan hukum) atas beberapa perkara, sebagai rahmat bagi kamu dan bukan kerana lupa, maka janganlah kamu mengkaji mengenainya.',
     benefit: 'Disiplin syariat dalam kehidupan.'
   },
   {
