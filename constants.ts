@@ -47,8 +47,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis6',
     title: 'Hadis 6: Meninggalkan Syubhat',
     category: 'Hadis',
-    arabic: 'إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَاتٌ لَا يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ...',
-    translation: 'Sesungguhnya yang halal itu jelas dan yang haram itu jelas. Antara keduanya terdapat perkara-perkara syubhat yang tidak diketahui oleh orang ramai. Sesiapa mengelak syubhat, dia menyelamatkan agama dan kehormatannya. Sesiapa yang jatuh ke dalam syubhat, seumpama pengembala di pinggir kawasan larangan...',
+    arabic: 'إِنَّ الْحَلَالَ بَيِّنٌ وَإِنَّ الْحَرَامَ بَيِّنٌ وَبَيْنَهُمَا أُمُورٌ مُشْتَبِهَاتٌ لَا يَعْلَمُهُنَّ كَثِيرٌ مِنَ النَّاسِ، فَمَنِ اتَّقَى الشُّبُهَاتِ اسْتَبْرَأَ لِدِينِهِ وَعِرْضِهِ، وَمَنْ وَقَعَ فِي الشُّبُهَاتِ وَقَعَ فِي الْحَرَامِ كَالرَّاعِي يَرْعَى حَوْلَ الْحِمَى يُوشِكُ أَنْ يَرْتَعَ فِيهِ، أَلَا وَإِنَّ لِكُلِّ مَلِكٍ حِمًى، أَلَا وَإِنَّ حِمَى اللَّهِ مَحَارِمُهُ، أَلَا وَإِنَّ فِي الْجَسَدِ مُضْغَةً، إِذَا صَلَحَتْ صَلَحَ الْجَسَدُ كُلُّهُ، وَإِذَا فَسَدَتْ فَسَدَ الْجَسَدُ كُلُّهُ، أَلَا وَهِيَ الْقَلْبُ',
+    translation: 'Sesungguhnya yang halal itu jelas dan yang haram itu jelas. Antara keduanya terdapat perkara-perkara syubhat yang tidak diketahui oleh orang ramai. Sesiapa mengelak syubhat, maka dia menyelamatkan agama dan kehormatannya. Sesiapa yang jatuh ke dalam syubhat, akan jatuh ke dalam haram, seumpama pengembala yang menggembala di pinggir kawasan larangan yang hampir meragut di dalamnya. Ketahuilah bahawa setiap raja mempunyai kawasan larangan. Ketahuilah bahawa kawasan larangan Allah adalah perkara-perkara yang diharamkan-Nya. Ketahuilah bahawa di dalam jasad ada segumpal daging; jika ia baik maka baiklah seluruh jasad, dan jika ia rosak maka rosaklah seluruh jasad. Ketahuilah bahawa ia adalah hati.',
     benefit: 'Menjaga kesucian hati dan agama dengan menjauhi keraguan.'
   },
   {
@@ -403,7 +403,7 @@ export const COMMON_DUAS: Dua[] = [
     id: 'p2',
     title: 'Doa Memohon Rezeki & Ilmu (Pagi)',
     category: 'Pagi',
-    arabic: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا...',
+    arabic: 'اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا',
     translation: 'Ya Allah, sesungguhnya aku memohon kepada-Mu ilmu yang bermanfaat...',
     benefit: 'Permulaan hari yang berkat.'
   },
@@ -411,8 +411,8 @@ export const COMMON_DUAS: Dua[] = [
     id: 'p3',
     title: 'Sayyidul Istighfar (Penghulu Istighfar)',
     category: 'Pagi',
-    arabic: 'اللَّهُمَّ أَنْتَ رَبِّي لاَ إِلَهَ إِلاَّ أَنْتَ...',
-    translation: 'Ya Allah, Engkau Tuhanku, tiada Tuhan melainkan Engkau...',
+    arabic: 'اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي، فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ',
+    translation: 'Ya Allah, Engkau Tuhanku, tiada tuhan melainkan Engkau. Engkau telah menciptakanku dan aku adalah hamba-Mu, dan aku berpegang kepada perjanjian dan janji-Mu sekadar kemampuanku. Aku berlindung dengan-Mu daripada kejahatan yang telah aku lakukan. Aku mengakui segala nikmat-Mu kepadaku dan aku mengakui segala dosaku, maka ampunilah aku. Sesungguhnya tiada yang dapat mengampunkan dosa-dosa melainkan Engkau.',
     benefit: 'Jaminan syurga bagi yang membacanya dengan yakin.'
   },
 
@@ -501,7 +501,7 @@ export const COMMON_DUAS: Dua[] = [
     id: 'azan1',
     title: 'Doa Selepas Azan',
     category: 'Harian',
-    arabic: 'اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ...',
+    arabic: 'اللَّهُمَّ رَبَّ هَذِهِ الدَّعْوَةِ التَّامَّةِ وَالصَّلَاةِ الْقَائِمَةِ، آتِ مُحَمَّدًا الْوَسِيلَةَ وَالْفَضِيلَةَ، وَابْعَثْهُ مَقَامًا مَحْمُودًا الَّذِي وَعَدْتَهُ',
     translation: 'Ya Allah, Tuhan bagi seruan yang sempurna ini...',
     benefit: 'Mendapat syafaat Nabi SAW.'
   },
@@ -527,7 +527,7 @@ export const COMMON_DUAS: Dua[] = [
     id: 'ram_tarawih',
     title: 'Doa Kamilin (Selepas Solat Tarawih)',
     category: 'Ramadan',
-    arabic: 'اللَّهُمَّ اجْعَلْنَا بِالْإِيمَانِ كَامِلِينَ...',
+    arabic: 'اللَّهُمَّ اجْعَلْنَا بِالْإِيمَانِ كَامِلِينَ، وَلِلْفَرَائِضِ مُؤَدِّينَ، وَلِلصَّلَاةِ حَافِظِينَ، وَلِلزَّكَاةِ فَاعِلِينَ، وَلِمَا عِنْدَكَ طَالِبِينَ، وَلِعَفْوِكَ رَاجِينَ، وَبِالْهُدَى مُتَمَسِّكِينَ، وَعَنِ اللَّغْوِ مُعْرِضِينَ، وَفِي الدُّنْيَا زَاهِدِينَ، وَفِي الْآخِرَةِ رَاغِبِينَ، وَبِالْقَضَاءِ رَاضِينَ، وَلِلنَّعْمَاءِ شَاكِرِينَ، وَعَلَى الْبَلَاءِ صَابِرِينَ',
     translation: 'Ya Allah, jadikanlah kami orang yang sempurna imannya...',
     benefit: 'Penyempurna ibadah malam Ramadan.'
   },
@@ -535,7 +535,7 @@ export const COMMON_DUAS: Dua[] = [
     id: 'ram_witir',
     title: 'Doa Selepas Solat Witir',
     category: 'Ramadan',
-    arabic: 'اللَّهُمَّ إِنَّا نَسْأَلُكَ إِيمَانًا دَائِمًا...',
+    arabic: 'اللَّهُمَّ إِنَّا نَسْأَلُكَ إِيمَانًا دَائِمًا، وَنَسْأَلُكَ قَلْبًا خَاشِعًا، وَنَسْأَلُكَ عِلْمًا نَافِعًا، وَنَسْأَلُكَ يَقِينًا صَادِقًا، وَنَسْأَلُكَ عَمَلًا صَالِحًا، وَنَسْأَلُكَ دِينًا قَيِّمًا، وَنَسْأَلُكَ خَيْرًا كَثِيرًا',
     translation: 'Ya Allah, kami memohon kepada-Mu iman yang berkekalan...',
     benefit: 'Ketenangan selepas solat penutup.'
   },
