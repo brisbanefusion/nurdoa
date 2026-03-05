@@ -111,16 +111,16 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis14',
     title: 'Hadis 14: Larangan Menumpahkan Darah',
     category: 'Hadis',
-    arabic: 'لا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ إِلاَّ بِإِحْدَى ثَلاثٍ...',
-    translation: 'Tidak halal darah seorang Muslim kecuali dengan tiga sebab: Penzina yang telah berkahwin, nyawa dengan nyawa...',
+    arabic: 'لَا يَحِلُّ دَمُ امْرِئٍ مُسْلِمٍ يَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَأَنِّي رَسُولُ اللَّهِ إِلَّا بِإِحْدَى ثَلَاثٍ: الثَّيِّبُ الزَّانِي، وَالنَّفْسُ بِالنَّفْسِ، وَالتَّارِكُ لِدِينِهِ الْمُفَارِقُ لِلْجَمَاعَةِ',
+    translation: 'Tidak halal darah seorang Muslim yang bersaksi bahawa tiada tuhan melainkan Allah dan aku pesuruh Allah melainkan dengan salah satu dari tiga sebab: Penzina yang pernah berkahwin, nyawa dibalas nyawa (qisas), dan orang yang meninggalkan agamanya lalu memisahkan diri dari jemaah umat Islam.',
     benefit: 'Ketinggian nilai nyawa seorang Muslim.'
   },
   {
     id: 'hadis15',
     title: 'Hadis 15: Berkata Baik atau Diam',
     category: 'Hadis',
-    arabic: 'مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ...',
-    translation: 'Sesiapa yang beriman kepada Allah dan hari akhirat, berkatalah yang baik atau diam...',
+    arabic: 'مَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيَقُلْ خَيْرًا أَوْ لِيَصْمُتْ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ جَارَهُ، وَمَنْ كَانَ يُؤْمِنُ بِاللَّهِ وَالْيَوْمِ الْآخِرِ فَلْيُكْرِمْ ضَيْفَهُ',
+    translation: 'Sesiapa yang beriman kepada Allah dan hari akhirat, berkatalah yang baik atau diam. Sesiapa yang beriman kepada Allah dan hari akhirat, muliakanlah jirannya. Sesiapa yang beriman kepada Allah dan hari akhirat, muliakanlah tetamunya.',
     benefit: 'Adab lidah dan memuliakan tetamu serta jiran.'
   },
   {
@@ -135,24 +135,24 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis17',
     title: 'Hadis 17: Berbuat Ihsan (Terbaik)',
     category: 'Hadis',
-    arabic: 'إِنَّ اللَّهَ كَتَبَ الإِحْسَانَ عَلَى كُلِّ شَيْءٍ...',
-    translation: 'Sesungguhnya Allah mewajibkan berbuat baik (ihsan) dalam setiap perkara...',
+    arabic: 'إِنَّ اللَّهَ كَتَبَ الْإِحْسَانَ عَلَى كُلِّ شَيْءٍ، فَإِذَا قَتَلْتُمْ فَأَحْسِنُوا الْقِتْلَةَ، وَإِذَا ذَبَحْتُمْ فَأَحْسِنُوا الذِّبْحَةَ، وَلْيُحِدَّ أَحَدُكُمْ شَفْرَتَهُ، وَلْيُرِحْ ذَبِيحَتَهُ',
+    translation: 'Sesungguhnya Allah mewajibkan ihsan dalam semua perkara. Jika kamu membunuh, bunuhlah dengan cara yang paling baik. Jika kamu menyembelih, sembelihlah dengan cara yang paling baik. Hendaklah setiap kamu menajamkan pisaunya dan merehatkan sembelihannya.',
     benefit: 'Melakukan tugasan dengan kualiti terbaik, termasuk saat menyembelih haiwan.'
   },
   {
     id: 'hadis18',
     title: 'Hadis 18: Bertakwa Di Mana Sahaja',
     category: 'Hadis',
-    arabic: 'اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا...',
-    translation: 'Bertakwalah kepada Allah di mana sahaja kamu berada, dan ikutilah kejahatan dengan kebaikan...',
+    arabic: 'اتَّقِ اللَّهَ حَيْثُمَا كُنْتَ، وَأَتْبِعِ السَّيِّئَةَ الْحَسَنَةَ تَمْحُهَا، وَخَالِقِ النَّاسَ بِخُلُقٍ حَسَنٍ',
+    translation: 'Bertakwalah kepada Allah di mana sahaja kamu berada, iringilah kejahatan dengan kebaikan nescaya kebaikan itu akan memadamkannya, dan bergaullah sesama manusia dengan akhlak yang mulia.',
     benefit: 'Kebaikan dapat menghapuskan dosa-dosa kecil.'
   },
   {
     id: 'hadis19',
     title: 'Hadis 19: Pesanan Kepada Ibnu Abbas',
     category: 'Hadis',
-    arabic: 'احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ...',
-    translation: 'Jagalah Allah nescaya Dia menjagamu. Jika kamu memohon, mohonlah kepada Allah...',
+    arabic: 'يَا غُلَامُ، إِنِّي أُعَلِّمُكَ كَلِمَاتٍ: احْفَظِ اللَّهَ يَحْفَظْكَ، احْفَظِ اللَّهَ تَجِدْهُ تُجَاهَكَ، إِذَا سَأَلْتَ فَاسْأَلِ اللَّهَ، وَإِذَا اسْتَعَنْتَ فَاسْتَعِنْ بِاللَّهِ',
+    translation: 'Wahai budak, aku ajarkan kepadamu beberapa kalimat: Jagalah (hak) Allah, nescaya Allah akan menjagamu. Jagalah (hak) Allah, nescaya engkau mendapati-Nya di hadapanmu. Jika engkau meminta, mintalah kepada Allah. Jika engkau memohon pertolongan, mohonlah pertolongan kepada Allah.',
     benefit: 'Tawakal total hanya kepada Allah SWT.'
   },
   {
