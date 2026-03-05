@@ -279,24 +279,24 @@ export const COMMON_DUAS: Dua[] = [
     id: 'hadis35',
     title: 'Hadis 35: Hak Sesama Muslim',
     category: 'Hadis',
-    arabic: 'لا تَحَاسَدُوا، وَلا تَنَاجَشُوا، وَلا تَبَاغَضُوا...',
-    translation: 'Janganlah kamu hasad, jangan tipu-menipu, jangan benci-membenci...',
+    arabic: 'لَا تَحَاسَدُوا، وَلَا تَنَاجَشُوا، وَلَا تَبَاغَضُوا، وَلَا تَدَابَرُوا، وَلَا يَبِعْ بَعْضُكُمْ عَلَى بَيْعِ بَعْضٍ، وَكُونُوا عِبَادَ اللَّهِ إِخْوَانًا. الْمُسْلِمُ أَخُو الْمُسْلِمِ: لَا يَظْلِمُهُ، وَلَا يَخْذُلُهُ، وَلَا يَكْذِبُهُ، وَلَا يَحْقِرُهُ. التَّقْوَى هَاهُنَا – وَيُشِيرُ إِلَى صَدْرِهِ ثَلَاثَ مَرَّاتٍ – بِحَسْبِ امْرِئٍ مِنَ الشَّرِّ أَنْ يَحْقِرَ أَخَاهُ الْمُسْلِمَ. كُلُّ الْمُسْلِمِ عَلَى الْمُسْلِمِ حَرَامٌ: دَمُهُ، وَمَالُهُ، وَعِرْضُهُ',
+    translation: 'Janganlah kamu saling mendengki, jangan saling menipu (dalam tawaran harga), jangan saling membenci, jangan saling membelakangi, dan janganlah sebahagian kamu berjual beli di atas jualan sebahagian yang lain. Jadilah kamu hamba-hamba Allah yang bersaudara. Seorang Muslim adalah saudara bagi Muslim yang lain: Dia tidak menzaliminya, tidak membiarkannya (tanpa pertolongan), tidak mendustainya, dan tidak merendah-rendahkannya. Takwa itu di sini – sambil Baginda menunjuk ke dadanya tiga kali – Cukuplah seseorang itu melakukan kejahatan apabila dia merendah-rendahkan saudaranya yang Muslim. Terhadap setiap Muslim, haram darahnya, hartanya, dan kehormatannya.',
     benefit: 'Muslim itu saudara bagi Muslim yang lain.'
   },
   {
     id: 'hadis36',
     title: 'Hadis 36: Membantu Kesulitan Saudara',
     category: 'Hadis',
-    arabic: 'مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً...',
-    translation: 'Sesiapa yang melepaskan satu kesusahan mukmin di dunia, Allah akan melepaskan kesusahannya di hari kiamat.',
+    arabic: 'مَنْ نَفَّسَ عَنْ مُؤْمِنٍ كُرْبَةً مِنْ كُرَبِ الدُّنْيَا، نَفَّسَ اللَّهُ عَنْهُ كُرْبَةً مِنْ كُرَبِ يَوْمِ الْقِيَامَةِ، وَمَنْ يَسَّرَ عَلَى مُعْسِرٍ، يَسَّرَ اللَّهُ عَلَيْهِ فِي الدُّنْيَا وَالْآخِرَةِ، وَمَنْ سَتَرَ مُسْلِمًا، سَتَرَهُ اللَّهُ فِي الدُّنْيَا وَالْآخِرَةِ. وَاللَّهُ فِي عَوْنِ الْعَبْدِ مَا كَانَ الْعَبْدُ فِي عَوْنِ أَخِيهِ',
+    translation: 'Sesiapa yang melepaskan satu kesusahan (kesedihan) seorang Mukmin di dunia, Allah akan melepaskan kesusahannya pada hari Kiamat. Sesiapa yang memudahkan urusan orang yang dalam kesukaran, Allah akan memudahkan urusannya di dunia dan di akhirat. Sesiapa yang menutup aib seorang Muslim, Allah akan menutup aibnya di dunia dan di akhirat. Dan Allah sentiasa memberikan pertolongan kepada hamba-Nya selagi hamba tersebut menolong saudaranya.',
     benefit: 'Ganjaran menuntut ilmu dan membantu orang lain.'
   },
   {
     id: 'hadis37',
     title: 'Hadis 37: Keadilan Allah',
     category: 'Hadis',
-    arabic: 'إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ ثُمَّ بَيَّنَ ذَلِكَ...',
-    translation: 'Sesungguhnya Allah menulis kebaikan dan kejahatan, kemudian menerangkannya...',
+    arabic: 'إِنَّ اللَّهَ كَتَبَ الْحَسَنَاتِ وَالسَّيِّئَاتِ ثُمَّ بَيَّنَ ذَلِكَ، فَمَنْ هَمَّ بِحَسَنَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ عَشْرَ حَسَنَاتٍ إِلَى سَبْعِمِائَةِ ضِعْفٍ إِلَى أَضْعَافٍ كَثِيرَةٍ، وَإِنْ هَمَّ بِسَيِّئَةٍ فَلَمْ يَعْمَلْهَا كَتَبَهَا اللَّهُ لَهُ عِنْدَهُ حَسَنَةً كَامِلَةً، وَإِنْ هَمَّ بِهَا فَعَمِلَهَا كَتَبَهَا اللَّهُ سَيِّئَةً وَاحِدَةً',
+    translation: 'Sesungguhnya Allah telah menetapkan (menulis) kebaikan-kebaikan dan kejahatan-kejahatan, kemudian menerangkannya. Maka sesiapa yang berniat untuk melakukan satu kebaikan lalu dia tidak melakukannya, Allah menetapkan niat itu di sisi-Nya sebagai satu kebaikan yang sempurna. Dan jika dia berniat lalu dia melakukannya, Allah menetapkannya di sisi-Nya sebanyak sepuluh kebaikan, hingga tujuh ratus kali ganda, hingga gandaan yang banyak. Dan jika dia berniat untuk melakukan satu kejahatan lalu dia tidak melakukannya, Allah menetapkannya di sisi-Nya sebagai satu kebaikan yang sempurna. Dan jika dia berniat lalu melakukannya, Allah menetapkannya sebagai satu kejahatan sahaja.',
     benefit: 'Allah melipatgandakan pahala niat yang baik.'
   },
   {
