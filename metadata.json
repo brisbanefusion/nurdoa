@@ -1,0 +1,7 @@
+{
+  "name": "NurDoa - Koleksi Doa Lepas Solat",
+  "description": "Sebuah aplikasi interaktif untuk mempelajari dan mengamalkan doa-doa selepas solat dalam Bahasa Arab beserta terjemahan Bahasa Melayu yang mendalam, diperkasakan oleh AI untuk panduan rohani.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
